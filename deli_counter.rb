@@ -28,6 +28,7 @@ if array.length == 0
 else
     array.each do |name|
       puts "Currently serving #{name}."
+      binding.pry
       array.shift
   end
 end
