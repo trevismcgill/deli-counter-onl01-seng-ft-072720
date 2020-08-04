@@ -30,6 +30,6 @@ while array.length > 0
       # binding.pry
       array.shift
   end
-  puts "There is nobody waiting to be served!"
 end
+puts "There is nobody waiting to be served!"
 end
