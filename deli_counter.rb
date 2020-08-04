@@ -29,7 +29,7 @@ if array.length > 0
       puts "Currently serving #{name}."
       binding.pry
       array.shift
-      
+
   end
 else
   puts "There is nobody waiting to be served!"
