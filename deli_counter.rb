@@ -21,9 +21,16 @@ end
 
 def now_serving(array)
   if array.length > 0
+<<<<<<< HEAD
       puts "Currently serving #{array.first}."
       array.shift
 
+=======
+    array.each do |name|
+      puts "Currently serving #{name}."
+      array.shift
+    end
+>>>>>>> bafa35c88820340dbbe8123b3117fbc7c49708b9
   else
     puts "There is nobody waiting to be served!"
   end
