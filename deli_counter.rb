@@ -30,6 +30,7 @@ def now_serving(array)
 #       # binding.pry
 #       array.shift
 #   end
+else
+  puts "There is nobody waiting to be served!"
 end
-puts "There is nobody waiting to be served!"
 end
