@@ -27,8 +27,9 @@ def now_serving(array)
 if array.length > 0
     array.each do |name|
       puts "Currently serving #{name}."
-      array.shift
       binding.pry
+      array.shift
+      
   end
 else
   puts "There is nobody waiting to be served!"
