@@ -34,4 +34,5 @@ if array.length > 0
 else
   puts "There is nobody waiting to be served!"
 end
+array
 end
