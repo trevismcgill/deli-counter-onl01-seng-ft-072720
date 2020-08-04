@@ -24,9 +24,9 @@ def now_serving(array)
       puts "Currently serving #{array.first}."
       array.shift
 
-    array.each do |name|
-      puts "Currently serving #{name}."
-      array.shift
+    # array.each do |name|
+    #   puts "Currently serving #{name}."
+    #   array.shift
     end
   else
     puts "There is nobody waiting to be served!"
