@@ -20,16 +20,16 @@ def line(katz_deli)
 end
 
 def now_serving(array)
-  if array.length > 0
-      puts "Currently serving #{array.first}."
-      array.shift
+  # if array.length > 0
+  #     puts "Currently serving #{array.first}."
+  #     array.shift
 
-# if array.length > 0
-#     array.each do |name|
-#       puts "Currently serving #{name}."
-#       binding.pry
-#       array.shift
-#   end
+if array.length > 0
+    array.each do |name|
+      puts "Currently serving #{name}."
+      array.shift
+      binding.pry
+  end
 else
   puts "There is nobody waiting to be served!"
 end
