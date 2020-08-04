@@ -29,7 +29,6 @@ while array.length > 0
       puts "Currently serving #{name}."
       # binding.pry
       array.shift
-
   end
   puts "There is nobody waiting to be served!"
 end
