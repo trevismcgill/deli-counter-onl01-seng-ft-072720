@@ -31,7 +31,6 @@ while array.length > 0
       array.shift
 
   end
-else
   puts "There is nobody waiting to be served!"
 end
 end
